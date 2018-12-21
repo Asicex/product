@@ -1,0 +1,164 @@
+/*
+ * header
+ */
+.headerWrap{
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+.header{
+	width: 1172px;
+	margin: 0 auto;
+}
+.header>a{
+	margin: 32px 0;
+	float: left;
+}
+
+/*
+ * banner
+ */
+.banner{
+	width: 100%;
+    height: 520px;
+	background: url(../img/register_bg.jpg);
+}
+.login-wrap{
+	padding: 60px 0 0 0;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    font-family: "Microsoft yahei";
+    margin-right: 50px;
+    width: 410px;
+    float: right;
+}
+.form-wrap{
+    background: #fff;
+    margin: 0;
+    width: 410px;
+    float: right;
+}
+.content{
+	margin-bottom: 40px;
+	padding: 30px 30px 0 30px;
+    font-family: "Microsoft yahei";
+    font-size: 18px;
+}
+.content p{
+    margin-bottom: 38px;
+    float: left;
+    width: 180px;
+}
+.content .login{
+	cursor: pointer;
+    float: right;
+    width: 105px;
+    color: #3d86f4;
+    font-size: 14px;
+    margin-bottom: 38px;
+}
+.content ul li{
+	margin-bottom: 15px;
+}
+.content ul li .input-box{
+    display: block;
+    clear: both;
+    position: relative;
+}
+.input-box{
+	width: 100%;
+}
+.input-box input{
+	box-sizing: border-box;
+	width: 100%;
+    height: 40px;
+	background: #fff;
+    border: 1px solid #aaa;
+    color: #333;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 8px;
+    text-overflow: ellipsis;
+}
+.valid-wrap{
+	width: 100%;
+    border-radius: 3px;
+    border-color: #AFAFAF;
+    font-size: 18px;
+    font-family: Microsoft Yahei;
+}
+.valid{
+	width: 120px;
+    float: right;
+}
+.valid span{
+	cursor: pointer;
+    width: 95%;
+    height: 38px;
+    background-color: #ffffff;
+    color: #ff5073;
+    border: 1px solid #ff5073;
+    font-size: 16px;
+    float: right;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 8px;
+}
+.valid+input{
+	width: 230px;
+}
+.input-box input[type=button]{
+    background-color: #ff5073;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.content .agreement{
+	font-size: 13px;
+    text-align: center;
+    width: auto;
+    margin: -10px 0 0 71px;
+}
+.agreement span{
+	color: #ff5073;
+    cursor: pointer;
+}
+.third-login{
+	height: 50px;
+    font-size: 14px;
+    border-top: 1px solid #dcdcdc;
+}
+.third-login span{
+	display: block;
+    float: left;
+    margin: 15px 30px;
+}
+.third-login .third-wechat{
+    background: url(../img/third-wechat.png) 0 0 no-repeat;
+    display: block;
+    height: 24px;
+    width: 30px;
+    float: left;
+    margin-top: 12px;
+    margin-right: 40px;
+}
+.third-login .third-weibo{
+	background: url(../img/third-weibo.png) 0 0 no-repeat;
+    display: block;
+    height: 24px;
+    width: 30px;
+    float: left;
+    margin-top: 12px;
+    margin-right: 40px;
+}
+.third-login .third-qq{
+    background: url(../img/third-qq.png) 0 0 no-repeat;
+    display: block;
+    height: 24px;
+    width: 23px;
+    float: left;
+    margin-top: 12px;
+    margin-right: 40px;
+}

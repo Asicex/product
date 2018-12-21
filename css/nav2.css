@@ -1,0 +1,106 @@
+
+/*
+ * nav 弹窗
+ */
+.navWrap{
+	width: 100%;
+	border-bottom: 1px solid #dddddd;
+}
+.nav{
+	width: 1172px;
+    margin: 0 auto;
+}
+.nav .levelOne>li{
+	float: left;
+	padding-top: 15px;
+    line-height: 24px;
+    position: relative;
+}
+.nav .levelOne>li:hover>a{
+	color: salmon;
+}
+.nav .classify{
+	background: #f2f2f2;
+    padding: 15px 24px 0 10px;
+}
+.nav .levelOne>li>a{
+	padding: 0 18px;
+	font-size: 16px;
+	color: #000;
+}
+.nav .levelTwo{
+	z-index: 999;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 41px;
+	background-color: #fff;
+    color: #333333;
+    width: 208px;
+    padding: 10px 16px 0 2px;
+}
+.nav .levelTwo a{
+	padding: 0 18px;
+	font-size: 16px;
+	color: #666;
+}
+.nav .levelTwo a:hover{
+	color: salmon;
+}
+.nav .levelOne>li:hover .levelTwo{
+	display: block;
+}
+
+/*弹窗*/
+.classify-container{
+	background: #f9f9f9;
+    display: none;
+    border: 1px solid #f2f2f2;
+    border-top: 0;
+    
+    position: absolute;
+    left: 0;
+    font-size: 14px;
+    width: 1175px;
+    height: 480px;
+    top: 41px;
+    text-align: left;
+    z-index: 9999;
+}
+.classify-container>ul>li{
+	float: left;
+    width: 235px;
+    height: 240px;
+    text-align: left;
+}
+.classify-container>ul>li p{
+    height: 40px;
+    line-height: 40px;
+    background: #f9f9f9;
+    padding-left: 18px;
+    font-weight: bold;
+}
+.classify-container>ul>li p a{
+	color: #333;
+}
+.sub-classify{
+	padding: 10px 18px 0;
+    height: 190px;
+    border-right: 1px solid #f2f2f2;
+    background: #fff;
+}
+.sub-classify ul{
+	overflow: hidden;
+}
+.sub-classify ul li{
+    float: left;
+    margin-right: 15px;
+    color: #666;
+}
+.sub-classify ul li a{
+	color: #333;
+}
+.sub-classify ul li a:hover{
+	color: salmon;
+	text-decoration: underline;
+}

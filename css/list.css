@@ -1,0 +1,137 @@
+.list-container{
+	width: 1172px;
+	margin: 0 auto;
+}
+.list-topbar{
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 5px 0;
+    margin: 5px 0;
+    line-height: 36px;
+}
+.list-topbar p{
+	padding: 5px 10px;
+}
+/*list*/
+.list-item{
+    height: 488.92px;
+    width: 23%;
+    text-align: center;
+    float: left;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    border-top: 1px solid #e5e5e5;
+}
+.list-item:hover{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.img-wrap{
+	max-width: 295px;
+	margin: 0 auto;
+}
+.img-wrap img{
+    vertical-align: middle;
+    border: 0;
+    max-width: 100%;
+    cursor: auto;
+}
+.list-item h2{
+    font-size: 18px;
+    margin-top: 8px;
+    font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei", 微软雅黑, STXihei, 华文细黑, sans-serif;
+    margin: 15px 0 0;
+    line-height: 20px;
+    overflow: hidden;
+}
+.list-item h2 a{
+	color: #333;
+}
+.list-item h2 a:hover{
+	color: #ff5073;
+}
+.price-box{
+	margin: 5px 0 10px;
+	font-size: 14px;
+}
+.price-old,.price-new{
+    margin-top: 10px;
+}
+.price-old .price{
+    color: #aaa;
+    text-decoration: line-through;
+}
+.price-new .price{
+    color: #ff5073;
+}
+.action{
+	margin: 10px 0 0;
+}
+.action button{
+	overflow: visible;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    cursor: pointer;
+    font: 12px/15px Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    outline: none;
+    border: none;
+}
+.action button span{
+	float: left;
+    display: block;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0 25px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #eeeeee;
+    color: #333333;
+}
+.action button span:hover{
+	background: deeppink;
+	color: #fff;
+}
+/*page*/
+.list-bottombar{
+	margin-top: 10px;
+}
+.pager{
+	border-top: 1px solid #e5e5e5;
+	line-height: 36px;
+	padding: 5px 0;
+	text-align: center;
+}
+.pages{
+	display: inline-block;
+	float: none;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+}
+.pages strong{
+	float: left;
+    margin-right: 5px;
+}
+.pages ol{
+	float: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+.pages ol li{
+    float: left;
+    margin: 0 0 0 1px;
+    display: block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.pages ol .current{
+	background-color: #e5e5e5;
+}

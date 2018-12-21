@@ -1,0 +1,68 @@
+[
+	{
+		"id" : "0",
+		"title" : "MEMEBOX 美美箱 ",
+		"subtitle" : "甜蜜抱枕",
+		"price" : "¥39.00",
+		"oldprice" : "¥79.00",
+		"discount" : "立省 ¥40.00",
+		"image" : "img/pro1.jpg",
+		"bigimage" : "img/big1.jpg",
+		"detail" : []
+	},
+	{
+		"id" : "1",
+		"title" : "I'M MEME ",
+		"subtitle" : "我爱口红",
+		"price" : "¥129.00",
+		"oldprice" : "¥159.00",
+		"discount" : "立省  ¥30.00",
+		"image" : "img/pro2.jpg",
+		"bigimage" : "img/big2.jpg",
+		"detail" : ["img/info2-1.jpg","img/info2-2.jpg","img/info2-3.jpg","img/info2-4.jpg"]
+	},
+	{
+		"id" : "2",
+		"title" : "Pony Effect ",
+		"subtitle" : "悠蓝炫彩磁铁化妆刷",
+		"price" : "¥329.00",
+		"oldprice" : "¥429.00",
+		"discount" : "立省  ¥100.00",
+		"image" : "img/pro3.jpg",
+		"bigimage" : "img/big3.jpg",
+		"detail" : ["img/info3.jpg"]
+	},
+	{
+		"id" : "3",
+		"title" : "I'M MEME ",
+		"subtitle" : "我爱十色眼影盘 #SP01约会之日",
+		"price" : "¥224.00",
+		"oldprice" : "¥266.00",
+		"discount" : "立省  ¥42.00",
+		"image" : "img/pro4.jpg",
+		"bigimage" : "img/big4.jpg",
+		"detail" : ["img/info4-1.jpg","img/info4-2.jpg"]
+	},
+	{
+		"id" : "4",
+		"title" : "Pony",
+		"subtitle" : "X MEMEBOX 闪耀蜜色8色眼影盘",
+		"price" : "¥219.00",
+		"oldprice" : "¥225.00",
+		"discount" : "立省  ¥6.00",
+		"image" : "img/pro5.jpg",
+		"bigimage" : "img/big5.jpg",
+		"detail" : ["img/info5-1.jpg","img/info5-2.jpg","img/info5-3.jpg"]
+	},
+	{
+		"id" : "5",
+		"title" : "Pony Effect ",
+		"subtitle" : "小布丁粉扑",
+		"price" : "¥82.00",
+		"oldprice" : "¥88.00",
+		"discount" : "立省 ¥6.00",
+		"image" : "img/pro6.jpg",
+		"bigimage" : "img/big6.jpg",
+		"detail" : ["img/info6.jpg"]
+	}
+]
